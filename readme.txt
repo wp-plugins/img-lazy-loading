@@ -12,7 +12,7 @@ Plugin to load images lazyloading without JS library.
 
 == Description ==
 
-Plugin to load images lazyloading without JS library.
+Very simple plugin to load images lazyloading without JS library.
 Lazy Loading is applied on the hooks : the_content, post_thumbnail_html, get_avatar, widget_text, wp_get_attachment_link. 
 
 == Installation ==
