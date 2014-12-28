@@ -16,21 +16,23 @@ Plugin to load images lazyloading without JS library.
 Very simple plugin to load images lazyloading without JS library (vanillaJS).
 
 Lazy Loading is applied on the hooks : 
-* the_content, 
-* post_thumbnail_html, 
-* get_avatar, 
-* widget_text, 
-* wp_get_attachment_link. 
+
+* the_content
+* post_thumbnail_html
+* get_avatar
+* widget_text
+* wp_get_attachment_link
 
 = Français =
 Plugin très simple qui charge les images en Lazy Loading sans librairie JS (vanillaJS)
 
 Le Lazy Loading est appliqué sur les hooks suivants :
-* the_content, 
-* post_thumbnail_html, 
-* get_avatar, 
-* widget_text, 
-* wp_get_attachment_link.
+
+* the_content
+* post_thumbnail_html
+* get_avatar
+* widget_text
+* wp_get_attachment_link
 
 == Installation ==
 = English =
