@@ -41,7 +41,7 @@ Le Lazy Loading est appliqué sur les hooks suivants :
 
 = Français =
 1. Uploader le répertoire `img-lazy-loading` dans le répertoire `/wp-content/plugins/`
-2. Activer le plugin via le menu des Extensions dans le menu de Wordpress
+2. Activer le plugin via les 'Extensions' dans le menu Wordpress
 
 == Frequently asked questions ==
 
