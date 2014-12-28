@@ -38,7 +38,7 @@ foreach($hooks as $hook)
 function imgLazyLoading($content)
 {
 	$string = $content;
-	$pattern = '/<img(.+)src=[\'"](.[^\'"]+)[\'"](.+)>/';
+	$pattern = '/<img(.+)src=[\'"](.[^\'"]+)[\'"](.+)\/>/';
 	$replacement = '<img${1}data-src="${2}" src="'.PLUGIN_URL.'default.gif" ${3} /><noscript>${0}</noscript>';
 	$content =  preg_replace($pattern, $replacement, $string);
 	return $content;
