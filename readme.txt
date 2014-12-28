@@ -26,7 +26,8 @@ Lazy Loading is applied on the hooks : the_content, post_thumbnail_html, get_ava
 No anwer.
 
 == Screenshots ==
-no screenshot.
+
+1. Plugin activation - Activation du plugin
 
 
 == Changelog ==
