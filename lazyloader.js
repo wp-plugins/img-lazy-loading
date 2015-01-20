@@ -9,7 +9,8 @@
 
 Plugin Name: IMG Lazy Loading
 Plugin URI: http://unmillion.net/plugin-wordpress-img-lazy-loading/
-Description: plugin wordpress to load images lazyloading without JS library.
+Description: Plugin to load images lazyloading without JS library.
+Version: 1.1
 Author: Art Uro
 Author URI: http://unmillion.net/author/art
 License: GPL2
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function()
 	{
 		for(var i = 0; i < imgInfos.length; i++)
 		{
-			if(imgInfos[i].charged == 0 && imgInfos[i].position <  window.innerHeight + window.scrollY)
+			if(imgInfos[i].charged == 0 && imgInfos[i].position <  (window.innerHeight || document.documentElement.clientHeight) + (window.scrollY || window.pageYOffset))
 			{
 				imgSrc = imgs[i].getAttribute("data-src");
 				imgInfos[i].charged = 1;
